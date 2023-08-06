@@ -1,0 +1,30 @@
+$color-primary: red;
+$color-tertiary: green;
+
+.exercise {
+  border: 1px solid $color-primary;
+
+  .exercise-title {
+    color: $color-tertiary;
+    text-align: center;
+    text-decoration: underline blue;
+  }
+  .b {
+    justify-content: center;
+
+    .a {
+      display: inline-block;
+      text-align: center;
+      width: 24%;
+      border: 1px solid $color-primary;
+      margin: 0;
+      padding: 0;
+      .c {
+        color: red;
+      }
+      p {
+        color: blue;
+      }
+    }
+  }
+}
